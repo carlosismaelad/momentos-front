@@ -22,9 +22,9 @@ export class NewMomentComponent {
     }
 
     //toDo
-
-    //Enviar para o service
     await this.momentService.createMoment(formData).subscribe()
+    
+    //Enviar para o service
 
     // exibir mensagem
 

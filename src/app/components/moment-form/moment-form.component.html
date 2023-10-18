@@ -4,8 +4,8 @@
     <input
       type="text"
       placeholder="Insira um título"
-      required
       formControlName="title"
+      required
     />
     <div *ngIf="title.invalid && formDir.submitted" class="validation-error">
       <p *ngIf="title.errors?.['required']">O título é obrigatório!</p>
